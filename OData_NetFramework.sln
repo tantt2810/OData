@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OData_NetFramework", "OData_NetFramework\OData_NetFramework.csproj", "{D9CF0AD0-B29A-4166-B97B-C0B717AC3AED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9CF0AD0-B29A-4166-B97B-C0B717AC3AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CF0AD0-B29A-4166-B97B-C0B717AC3AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CF0AD0-B29A-4166-B97B-C0B717AC3AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CF0AD0-B29A-4166-B97B-C0B717AC3AED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {689EC33D-3813-4A94-AD10-4E3ABCB7CE7C}
+	EndGlobalSection
+EndGlobal
