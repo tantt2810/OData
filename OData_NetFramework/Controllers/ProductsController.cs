@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNet.OData;
-using Microsoft.AspNet.OData.Routing;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Web.Http;
+using Microsoft.AspNet.OData;
 
 namespace OData_NetFramework.Controllers
 {
@@ -9,11 +8,10 @@ namespace OData_NetFramework.Controllers
     {
         /// <summary>
         /// Get Product Controller
-        /// Ex: https://localhost:44350/odata/product/GetProd(Id=100,Name='Candy')
+        /// Ex: https://localhost:44350/odata/product/Products/GetProducts(Id=100,Name='Candy')
         /// </summary>
         [EnableQuery]
         [HttpGet]
-        [ODataRoute("GetProd(Id={Id},Name={Name})")]
         public IHttpActionResult GetProducts([FromODataUri] int Id, [FromODataUri] string Name)
         {
             Dictionary<string, string> response = new Dictionary<string, string>()
