@@ -1,9 +1,9 @@
 ﻿
+using Microsoft.AspNet.OData;
 using OData_NetFramework.Models;
 using System;
 using System.Collections.Generic;
 using System.Web.Http;
-using Microsoft.AspNet.OData;
 
 namespace OData_NetFramework.Controllers
 {
